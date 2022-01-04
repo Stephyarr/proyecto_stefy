@@ -1,0 +1,9 @@
+# Dentro de GitIgnore armo una lista de objetos a ingnorar
+
+.DS_store
+
+# Ignora carpetas
+node_modules
+package-lock.json
+package.json
+logo_files

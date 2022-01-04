@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// IMPORTACION
+@import "producto";
+@import "contacto";
+@import "bs_scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Dongle&family=Josefin+Sans:ital,wght@1,300&family=Lato:ital,wght@0,700;1,900&family=Mochiy+Pop+P+One&family=Mohave:ital,wght@0,400;1,300&family=Montserrat:ital,wght@0,400;0,600;1,800&family=Outfit:wght@500&family=Overpass:wght@100;300&family=Pacifico&family=Poppins:wght@200;300&family=Roboto:wght@300;400;700&family=Signika+Negative:wght@600&display=swap');
+body{
+    background: #F9E4C8;
+    font-family: 'Montserrat', sans-serif;
+
+}
+h2{
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  
+}
+/* Showcase */
+#showcase {
+    background: url('../productos/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 87vh;
+    text-align: center;
+    padding: 150px 20px;
+  }
+  
+  #showcase h1 {
+    padding: 50px 0;
+    font-weight: 400;
+  }
+  
+  #showcase p,
+  #showcase .thinner {
+    font-weight: 100;
+  }
+  
+  #showcase a  {
+    text-transform: uppercase;
+  }
+
+// INFORMACION
+
+.sub__informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, auto 1fr auto);
+    gap: 20px;
+    text-align: center;
+    .infoB {
+      padding: 8.5px;
+      outline: 1px 0.5px solid;
+      border-radius: 50px;
+      box-shadow: 0px 4px 6px;
+      cursor: pointer;
+      box-sizing: border-box;
+
+
+    }
+
+}
+
+.informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+// MEDIOS DE PAGO
+.medios {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+
+  article img {
+    width: 90px;
+    height: 60px;
+
+  }
+}
+
+// FOOTER
+footer{
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.Pcenter{
+  text-align: center;
+  text-decoration: none;
+}
+
+// Como Comprar
+.infoCom {
+  padding: 50px;
+  
+  
+}
+.center{
+  padding: 20px;
+  content: 10px;
+  text-align: center;
+  
+  
+  
+}
+
+.modi-producto {
+  border: 20px ;
+}
+
+.tonos {
+  font-weight: bold;
+  font-weight: 600;
+}
+.next {
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
